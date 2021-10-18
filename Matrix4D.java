@@ -29,7 +29,7 @@ public class Matrix4D {
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
                 result.elements[i][j] = 0.0;       //um sicher zu stellen, dass alle Werte auf 0 sind
-                for (int k = 0; k < 4; k++) {
+             for (int k = 0; k < 4; k++) {
                     result.elements[i][j] += this.elements[i][k] * matrix.elements[k][j];
                 }
             }
