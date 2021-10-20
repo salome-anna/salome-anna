@@ -10,13 +10,13 @@ public class Test {
 		Matrix4D m5 = new Matrix4D(new double[][] {{-3,2,0,1},{0,2,3,-2},{-1,0,3,1},{5,2,1,3}});    
 
 		//DEFINE VECTORS
-		Vector v1 = new Vector(new double[] {1,2,3});
-		Vector v2 = new Vector(new double[] {5,6,7});
-		Vector v3 = new Vector(new double[] {-1,0,-4});
-		Vector v4 = new Vector(new double[] {1,2,3,4});
+		MyVector v1 = new MyVector(new double[] {1,2,3});
+		MyVector v2 = new MyVector(new double[] {5,6,7});
+		MyVector v3 = new MyVector(new double[] {-1,0,-4});
+		MyVector v4 = new MyVector(new double[] {1,2,3,4});
 
 		//MULTIPLY MATRICES
-		System.out.println("\MULTIPLY MATRICESn:");
+		System.out.println("\nMULTIPLY MATRICES:");
 		Matrix4D mResult1 = m1.mult(m2);
 		Matrix4D mResult2 = m2.mult(m3);
 		Matrix4D mResult3 = m4.mult(m5);
